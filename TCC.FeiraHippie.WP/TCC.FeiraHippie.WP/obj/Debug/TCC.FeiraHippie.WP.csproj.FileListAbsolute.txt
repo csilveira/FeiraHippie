@@ -1,0 +1,14 @@
+C:\Users\CaioCesar\Documents\GitHub\FeiraHippie\TCC.FeiraHippie.WP\TCC.FeiraHippie.WP\Bin\Debug\ApplicationIcon.png
+C:\Users\CaioCesar\Documents\GitHub\FeiraHippie\TCC.FeiraHippie.WP\TCC.FeiraHippie.WP\Bin\Debug\Background.png
+C:\Users\CaioCesar\Documents\GitHub\FeiraHippie\TCC.FeiraHippie.WP\TCC.FeiraHippie.WP\Bin\Debug\TCC.FeiraHippie.WP.dll
+C:\Users\CaioCesar\Documents\GitHub\FeiraHippie\TCC.FeiraHippie.WP\TCC.FeiraHippie.WP\Bin\Debug\TCC.FeiraHippie.WP.pdb
+C:\Users\CaioCesar\Documents\GitHub\FeiraHippie\TCC.FeiraHippie.WP\TCC.FeiraHippie.WP\Bin\Debug\AppManifest.xaml
+C:\Users\CaioCesar\Documents\GitHub\FeiraHippie\TCC.FeiraHippie.WP\TCC.FeiraHippie.WP\Bin\Debug\TCC.FeiraHippie.WP.xap
+C:\Users\CaioCesar\Documents\GitHub\FeiraHippie\TCC.FeiraHippie.WP\TCC.FeiraHippie.WP\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\CaioCesar\Documents\GitHub\FeiraHippie\TCC.FeiraHippie.WP\TCC.FeiraHippie.WP\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\CaioCesar\Documents\GitHub\FeiraHippie\TCC.FeiraHippie.WP\TCC.FeiraHippie.WP\obj\Debug\App.g.i.cs
+C:\Users\CaioCesar\Documents\GitHub\FeiraHippie\TCC.FeiraHippie.WP\TCC.FeiraHippie.WP\obj\Debug\MainPage.g.i.cs
+C:\Users\CaioCesar\Documents\GitHub\FeiraHippie\TCC.FeiraHippie.WP\TCC.FeiraHippie.WP\obj\Debug\TCC.FeiraHippie.WP.g.resources
+C:\Users\CaioCesar\Documents\GitHub\FeiraHippie\TCC.FeiraHippie.WP\TCC.FeiraHippie.WP\obj\Debug\TCC.FeiraHippie.WP.dll
+C:\Users\CaioCesar\Documents\GitHub\FeiraHippie\TCC.FeiraHippie.WP\TCC.FeiraHippie.WP\obj\Debug\TCC.FeiraHippie.WP.pdb
+C:\Users\CaioCesar\Documents\GitHub\FeiraHippie\TCC.FeiraHippie.WP\TCC.FeiraHippie.WP\obj\Debug\XapCacheFile.xml
