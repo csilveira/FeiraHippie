@@ -7,25 +7,34 @@
     xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="728" 
     d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait"  Orientation="Portrait"
     shell:SystemTray.IsVisible="False">
+	<phone:PhoneApplicationPage.ApplicationBar>
+		<shell:ApplicationBar ForegroundColor="#FF0300FF">
+			<shell:ApplicationBar.MenuItems>
+				<shell:ApplicationBarMenuItem IsEnabled="True" Text="Ajuda" Click="HelpButton_Clicked"/>
+				<shell:ApplicationBarMenuItem IsEnabled="True" Text="Sobre" Click="AboutButton_Clicked"/>
+			</shell:ApplicationBar.MenuItems>
+			<shell:ApplicationBarIconButton IconUri="/icons/appbar.refresh.rest.png" IsEnabled="True" Text="Atualizar"/>
+		</shell:ApplicationBar>
+	</phone:PhoneApplicationPage.ApplicationBar>
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
  
         <!--Panorama control-->
-        <controls:Panorama Title="my application">
+        <controls:Panorama Title="Feira Hippie">
             <controls:Panorama.Background>
                 <ImageBrush ImageSource="PanoramaBackground.png"/>
             </controls:Panorama.Background>
  
             <!--Panorama item one-->
-            <controls:PanoramaItem Header="first item">
+            <controls:PanoramaItem Header="Noticias">
                 <!--Double line list with text wrapping-->
                 <ListBox Margin="0,0,-12,0" ItemsSource="{Binding Items}">
                     <ListBox.ItemTemplate>
@@ -41,7 +50,7 @@
  
             <!--Panorama item two-->
             <!--Use 'Orientation="Horizontal"' to enable a panel that lays out horizontally-->
-            <controls:PanoramaItem Header="second item">
+            <controls:PanoramaItem Header="Tempo">
                 <!--Double line list with image placeholder and text wrapping-->
                 <ListBox Margin="0,0,-12,0" ItemsSource="{Binding Items}">
                     <ListBox.ItemTemplate>
@@ -57,6 +66,23 @@
                         </DataTemplate>
                     </ListBox.ItemTemplate>
                 </ListBox>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Listas">
+                <!--Double line list with image placeholder and text wrapping-->
+            	<ListBox Margin="0,0,-12,0" ItemsSource="{Binding Items}">
+            		<ListBox.ItemTemplate>
+            			<DataTemplate>
+            				<StackPanel Orientation="Horizontal" Margin="0,0,0,17">
+                                <!--Replace rectangle with image-->
+            					<Rectangle Height="100" Width="100" Fill="#FFE5001b" Margin="12,0,9,0"/>
+            					<StackPanel Width="311">                                    
+            						<TextBlock Text="{Binding LineOne}" TextWrapping="Wrap" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
+            						<TextBlock Text="{Binding LineTwo}" TextWrapping="Wrap" Margin="12,-6,12,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+            					</StackPanel>
+            				</StackPanel>
+            			</DataTemplate>
+            		</ListBox.ItemTemplate>
+            	</ListBox>
             </controls:PanoramaItem>
         </controls:Panorama>
     </Grid>

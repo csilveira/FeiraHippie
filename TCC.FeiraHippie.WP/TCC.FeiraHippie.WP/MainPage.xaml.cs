@@ -32,6 +32,19 @@ namespace TCC.FeiraHippie.WP
             {
                 App.ViewModel.LoadData();
             }
+
+            NavigationService.Navigate(new Uri("/Pages/ItemCategoryPage.xaml?ID=1", UriKind.RelativeOrAbsolute));
         }
+
+        #region Button Handlers
+        private void HelpButton_Clicked(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/HelpPage.xaml", UriKind.RelativeOrAbsolute));
+        }
+        private void AboutButton_Clicked(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/AboutPage.xaml", UriKind.RelativeOrAbsolute));
+        } 
+        #endregion
     }
 }
